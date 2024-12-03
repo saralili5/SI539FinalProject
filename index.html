@@ -32,10 +32,28 @@
         <img id="sara" src="images/sara.png" alt="Sara">
         <p>Welcome to a place where delicious Ann Arbor foods meets whimsical claymation! Two totally different loves of mine, but together, they make the perfect pair. Use the randomizer below to mix up a film and food that’ll hit the spot. Check out overviews of my top five food picks and claymation classics in the tabs above!</p>
     </div>
+
+    <!-- /* This code is adapted from this website https://codingartistweb.com/2023/09/random-choice-picker/ */ -->
+    <div class="random-choice-picker">
+        <h2>Random Movie Picker</h2>
+        <p>Enter movie choices, separated by commas:</p>
+        <textarea id="movieChoices" rows="3" placeholder="Movie 1, Movie 2, Movie 3"></textarea>
+        <button id="pickMovieButton">Pick A Random Movie</button>
+        <p id="movieResult"></p>
+      </div>
+    
+      <div class="random-choice-picker">
+        <h2>Random Food Picker</h2>
+        <p>Enter food choices, separated by commas:</p>
+        <textarea id="foodChoices" rows="3" placeholder="Food 1, Food 2, Food 3"></textarea>
+        <button id="pickFoodButton">Pick A Random Food</button>
+        <p id="foodResult"></p>
+      </div>
 </main>
 <footer>
     <p>Sara Lili <span id="year"></span></p>
 </footer>
+<script src="/js/script.js"></script>
 <script>
     document.getElementById("year").innerHTML = new Date().getFullYear();
 </script>
