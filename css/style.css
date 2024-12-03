@@ -20,7 +20,7 @@ header {
     padding: 20px;
     background-color: #46395a;
     color: #fff;
-    background-image: url(/images/navback.jpg);
+    background-image: url('/images/navback.jpg');
     background-position: center center;
 }
 
