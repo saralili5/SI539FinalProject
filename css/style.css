@@ -7,7 +7,11 @@ body {
     flex-direction: column;
     gap: 40px;
     margin: 0;
-    background-color: #fff3ee;
+    background-color: #ffffff;
+    background-image: url("/images/background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
 }
 header {
     display: grid;
@@ -18,14 +22,15 @@ header {
     align-items: center;
     justify-items: center;
     padding: 20px;
-    background-color: #46395a;
-    color: #fff;
-    background-image: url('/images/navback.jpg');
-    background-position: center center;
+    background-color: #f4f2aa;
+    color: #000000;
+    /* background-image: url('/images/navback.jpg');
+    background-position: center center; */
 }
 
+
 header h2 {
-    color: white;
+    color: black;
 }
 
 .skip-link-container {
@@ -82,8 +87,8 @@ nav {
 
 .nav-list a {
     text-decoration: none;
-    color: #fff;
-    font-size: 1.1em;
+    color: #390040;
+    font-size: 1.5em;
     padding: 10px;
     display: block;
     transition: background-color 0.3s ease;
@@ -92,10 +97,12 @@ nav {
 .nav-list a:hover {
     background-color: #8912d4;
     border-radius: 5px;
+    color: white;
 }
 
 .nav-list a.active {
-    background-color: #c400a4;
+    background-color: #390040;
+    color: white;
     border-radius: 5px;
 }
 
@@ -135,7 +142,7 @@ nav {
     justify-items: center;
     align-items: center;
     padding: 40px;
-    width: 90%;
+    width: 100%;
     max-width: 1200px;
     background-color: #f9f9f9;
     border-radius: 10px;
@@ -158,14 +165,14 @@ nav {
   }
 
   .about-container p {
-    width: 90%;
+    width: 100%;
     max-width: 500px;
     font-size: 1.1rem;
     line-height: 1.6;
     color: #333;
     text-align: center;
     padding: 20px;
-    background-color: #fff;
+    background-color: #ffff;
     border-radius: 10px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
   }
@@ -183,6 +190,11 @@ nav {
     padding: 20px;
     text-align: center;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.randomizer-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .random-choice-picker h2 {
@@ -397,11 +409,11 @@ h2 {
 
 footer {
     text-align: left;
-    background-color: #562435;
-    color: #fff;
+    background-color: white;
+    color: black;
     padding: 5px 20px;
     font-size: 1rem;
-    border-top: 2px solid #c400a4;
+    border-top: 2px solid #ff9fef;
 }
 
 @media (max-width: 768px) {
@@ -419,5 +431,14 @@ footer {
 
     .food-card {
         width: 90%;
+    }
+    .about-container {
+        grid-template-columns: 1fr;
+    }
+
+    .randomizer-section {
+        grid-template-columns: 1fr;
+        padding-bottom: 20px;
+        gap: 15px;
     }
 }
