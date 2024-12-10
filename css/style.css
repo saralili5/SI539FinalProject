@@ -198,6 +198,7 @@ nav {
 .randomizer-section {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-bottom: 40px;
 }
 
 .random-choice-picker h2 {
