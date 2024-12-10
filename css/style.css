@@ -8,7 +8,7 @@ body {
     gap: 40px;
     margin: 0;
     background-color: #ffffff;
-    background-image: url("/images/background.png");
+    background-image: url("../images/background.png");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -206,7 +206,7 @@ nav {
 }
 
 .random-choice-picker p {
-    color: #909090;
+    color: #390040;
     margin: 1.5em 0;
 }
 
