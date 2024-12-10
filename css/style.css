@@ -319,6 +319,7 @@ nav {
     gap: 20px;
     justify-items: center;
     padding: 20px;
+    margin-bottom: 40px;
 }
 
 .food-card {
