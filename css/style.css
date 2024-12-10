@@ -159,13 +159,13 @@ nav {
     height: auto;
     border-radius: 50%;
     object-fit: cover;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
 
-  #sara:hover {
+#sara:hover {
     transform: scale(1.05);
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
-  }
+    opacity: 0.8;
+}
 
   .about-container p {
     width: 100%;

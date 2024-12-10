@@ -32,3 +32,13 @@ pickMovieButton.addEventListener("click", pickRandomMovie);
 
 const pickFoodButton = document.getElementById("pickFoodButton");
 pickFoodButton.addEventListener("click", pickRandomFood);
+
+let saraImage = document.getElementById('sara');
+
+saraImage.addEventListener('mouseenter', function() {
+    saraImage.src = 'images/logo.png';
+});
+
+saraImage.addEventListener('mouseleave', function() {
+    saraImage.src = 'images/sara.png';
+});
