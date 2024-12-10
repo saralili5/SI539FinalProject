@@ -8,10 +8,13 @@ body {
     gap: 40px;
     margin: 0;
     background-color: #ffffff;
-    background-image: url("images/background.png");
+    background-image: url("/images/background.png");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
+    background-size: cover;
+    /* height: 100vh; */
+    /* overflow-x: hidden; */
 }
 header {
     display: grid;
@@ -362,7 +365,9 @@ nav {
     position: absolute;
     top: 10px;
     left: 10px;
-    background: linear-gradient(145deg, #4000ff, #ff75ef);
+    /* background: linear-gradient(145deg, #4000ff, #ff75ef); */
+    background-color: #8912d4;
+    border: 2px solid #fffa63;
     color: white;
     font-size: 1.4em;
     font-weight: bold;
