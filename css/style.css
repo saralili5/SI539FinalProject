@@ -234,6 +234,10 @@ nav {
     cursor: pointer;
 }
 
+.random-choice-picker button:focus {
+    background-color: #390040;
+}
+
 .random-choice-picker #result {
     color: #ffffff;
     font-size: 1.2em;
